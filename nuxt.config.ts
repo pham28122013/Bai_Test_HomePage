@@ -3,7 +3,7 @@ import { defineNuxtConfig } from 'nuxt/config'
 export default defineNuxtConfig({
   ssr: false,
   app: {
-    baseURL: process.env.NODE_ENV === 'production' ? '/homePage/' : '/',
+    baseURL: process.env.NODE_ENV === 'production' ? '/Bai_Test_HomePage/' : '/',
     buildAssetsDir: 'assets'
   },
   nitro: {
