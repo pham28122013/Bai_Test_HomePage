@@ -22,7 +22,7 @@
               <v-btn
                 v-if="!item.isEmail"
                 variant="text"
-                class="inter-14-regular-uppercase text-start px-0 footer-link"
+                class="inter-14-regular-uppercase text-start px-0 footer-link no-uppercase"
                 density="compact"
                 :href="item.link || '#'"
               >
